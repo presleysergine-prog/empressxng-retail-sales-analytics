@@ -452,48 +452,55 @@ empressxng-retail-sales-analytics/
 │
 ├── 01_Data_Inspection/
 │   ├── 01_Data_Inspection_Retail_Sales.ipynb
-│   └── data_quality_report.xlsx
+│   └── data_quality_report.csv
 │
 ├── 02_Data_Cleaning/
 │   ├── 02_Data_Cleaning_Preprocessing.ipynb
-│   ├── cleaning_log.xlsx
-│   └── retail_sales_cleaned.csv
+│   ├── cleaning_log.ipynb
+|   ├── retail_sales_cleaned.csv
+│   └── retail_sales_cleaned.xlsx
 │
 ├── 03_Exploratory_Data_Analysis/
 │   ├── 03_Exploratory_Data_Analysis.ipynb
+|   ├── retail_sales_eda_report.xlsx
 │   └── charts/
-│       ├── monthly_revenue_trend.png
-│       ├── revenue_by_category.png
-│       ├── revenue_by_state.png
-│       └── top_10_products.png
+│       ├── Monthly revenue trend.png
+│       ├── Revenue by Production Category.png
+│       ├── Revenue by State.png
+│       └── Top 10 Best selling Products.png
 │
-├── 04_Feature_Engineering/
+├── 04_Advanced_Feature_Engineering/
 │   ├── 04_Advanced_Feature_Engineering.ipynb
-│   └── retail_sales_feature_engineered.csv
-│
-├── 05_SQL_Analysis/
+│   ├── retail_sales_feature_engineered.csv
+|   ├── retail_sales_feature_engineered.xlsx
+│   └── Screenshots/
+|       ├── Customer Segmentation.png
+|       └── Distribution of Profitability Categories.png
+|
+├── 05_Database_Analysis/
 │   ├── 01_database_setup.sql
 │   ├── 02_business_analysis.sql
-│   ├── SQL_Findings.md
+|   ├── 03_advanced_business_analysis.sql
+|   ├── 04_analysis_summary.sql
+│   ├── 05_sql_findings.md.sql
 │   └── screenshots/
-│       ├── 01_database_and_import_table.png
-│       ├── 02_database_table.png
-│       └── 03_sql_analysis.png
+│       ├── Database and Import_table.png
+│       ├── database table.png
+│       └── sql analysis.png
 │
-├── 06_Excel_Dashboard/
+├── 06_Retail_sales_Excel_Analytics_Dashboard/
 │   ├── Retail_Sales_Analytics_Dashboard.xlsx
-│   └── dashboard_screenshot.png
-
-│
-├── data/
-│   └── retail_sales_raw_dataset.csv
+│   └── Retail_Sales_dashboard.png
+|   └── Retail_sales_data_table.png
 │
 ├── images/
-│   ├── empressxng_logo.png
-│   ├── data_inspection.png
-│   ├── data_cleaning.png
-│   └── feature_engineering.png
-│
+│   ├── Cleaned_table.png
+│   ├── EmpressXng Enterprises Logo.png
+│   └── data_power_query.png
+|
+├── Raw_Dataset/
+│   └── retail_sales_raw_dataset.csv   
+|
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -522,15 +529,21 @@ empressxng-retail-sales-analytics/
 
 ---
 
-## 12. Author
+## 👤 Author
 
-**Presley Sergine Ufuoma**
+Presley Ufuoma Sergine |
+Data Analyst | Lagos, Nigeria
 
-**Project:** EmpressXNG Enterprise – Retail Sales Analytics
+<p>
+  <a href="https://www.linkedin.com/in/presley-sergine-b9176343a">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:presleysergine23@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
-**GitHub:** https://github.com/presleysergine-prog
-
-**LinkedIn:** https://www.linkedin.com/in/presley-sergine-b9176343a
+<p align="center">
 
 ---
 
